@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Currency converter </title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+    
+
+    <header id="header">
+        <div class="container">
+            <div class="row header-box">
+                <div class="col-md-2 left">
+                    <img src="image/Asset 1@3x 1.svg" alt="bankLogo">
+                </div>
+                <div class="col-md-8 center">
+                    <ul>
+                        <li><a href="#">Bank</a></li>
+                        <li><a href="">Business</a></li>
+                        <li><a href="#">Investments</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Trips</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 right">
+                    <button>Sign in</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Media navbar  -->
+
+    <header id="mediaNavbar">
+        <div class="container">
+            <div class="navbar">
+                <div class="left">
+                    <img src="image/Asset 1@3x 1.svg" alt="bankLogo">
+                </div>
+                <div class="right">
+                    <span>
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                    <button>Sign in</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Media navbar  -->
+
+    
+
+    <main>
+        <div class="container">
+            <div id="converter-box">
+                <div class="box-top">
+                    <h1>Currency converter online</h1>
+                </div>
+                <div class="row box-middle">
+                    <div class="col-md-5 box">
+                        <div class="box-top">
+                            <span> I have</span>
+                        <ul class="leftList"> 
+                            <li><button class="rub1 active">RUB</button></li>
+                            <li><button class="usd1">USD</button></li>
+                            <li><button class="eur1">EUR</button></li>
+                            <li><button class="gpb1">GBP</button></li>
+                        </ul>
+                        </div>
+                        <div class="convert-box">
+                            <input type="text" name="convert" id="inp1" >
+                            <p class="convert1">1 RUB = 0.0135 USD</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 box">
+                        <div class="box-top">
+                            <span> I want to buy </span>
+                        <ul class="rightList"> 
+                            <li><button class="rub2">RUB</button></li>
+                            <li><button class="usd2 active">USD</button></li>
+                            <li><button class="eur2">EUR</button></li>
+                            <li><button class="gpb2">GBP</button></li>
+                        </ul>
+                        </div>
+                        <div class="convert-box">
+                            <input type="text" name="convert" id="inp2" disabled>
+                        <p class="convert2">1 USD = 73.8896 RUB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
